@@ -1,0 +1,182 @@
+.group_card-top_left {
+  width: 50vw;
+  height: 50vh;
+  background-color: none;
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  z-index: auto;
+}
+.group_card-top_right {
+  width: 50vw;
+  height: 50vh;
+  background-color: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+}
+.group_card-bot_right {
+  width: 50vw;
+  height: 50vh;
+  background-color: none;
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  z-index: auto;
+}
+.group_card-bot_left {
+  width: 50vw;
+  height: 50vh;
+  background-color: none;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+}
+
+.card-1_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: auto;
+  right: 120px;
+  bottom: 120px;
+  left: auto;
+  z-index: auto;
+}
+.card-1_2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: auto;
+  right: 80px;
+  bottom: 80px;
+  left: auto;
+  z-index: auto;
+}
+.card-1_3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: auto;
+  right: 40px;
+  bottom: 40px;
+  left: auto;
+  z-index: auto;
+}
+
+.card-2_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 120px;
+  left: 120px;
+  z-index: auto;
+}
+.card-2_2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 80px;
+  left: 80px;
+  z-index: auto;
+}
+.card-2_3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 40px;
+  left: 40px;
+  z-index: auto;
+}
+
+.card-3_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+}
+.card-3_2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+}
+.card-3_3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+}
+
+.card-4_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 120px;
+  right: auto;
+  bottom: auto;
+  left: 120px;
+  z-index: auto;
+}
+.card-4_2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 80px;
+  right: auto;
+  bottom: auto;
+  left: 80px;
+  z-index: auto;
+}
+.card-4_3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 40px;
+  right: auto;
+  bottom: auto;
+  left: 40px;
+  z-index: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

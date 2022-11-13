@@ -1,0 +1,208 @@
+@use "variables";
+@use "mixin";
+.group_card {
+	&-top_left {
+		@include mixin.square(50vw, 50vh, none);
+		@include mixin.position(absolute, 0, auto, auto, 0, auto);
+	}
+	&-top_right {
+		@include mixin.square(50vw, 50vh, none);
+		@include mixin.position(absolute, 0, 0, auto, auto, auto);
+	}
+	&-bot_right {
+		@include mixin.square(50vw, 50vh, none);
+		@include mixin.position(absolute, auto, 0, 0, auto, auto);
+	}
+	&-bot_left {
+		@include mixin.square(50vw, 50vh, none);
+		@include mixin.position(absolute, auto, auto, 0, 0, auto);
+	}
+}
+.card-1 {
+	&_1 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-1
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			variables.$gap * 3,
+			variables.$gap * 3,
+			auto,
+			auto
+		);
+	}
+	&_2 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-2
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			variables.$gap * 2,
+			variables.$gap * 2,
+			auto,
+			auto
+		);
+	}
+	&_3 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-3
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			variables.$gap,
+			variables.$gap,
+			auto,
+			auto
+		);
+	}
+}
+.card-2 {
+	&_1 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-1
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			auto,
+			variables.$gap * 3,
+			variables.$gap * 3,
+			auto
+		);
+	}
+	&_2 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-2
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			auto,
+			variables.$gap * 2,
+			variables.$gap * 2,
+			auto
+		);
+	}
+	&_3 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-3
+		);
+		@include mixin.position(
+			absolute,
+			auto,
+			auto,
+			variables.$gap,
+			variables.$gap,
+			auto
+		);
+	}
+}
+.card-3 {
+	&_1 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-1
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap * 3,
+			variables.$gap * 3,
+			auto,
+			auto,
+			auto
+		);
+	}
+	&_2 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-2
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap * 2,
+			variables.$gap * 2,
+			auto,
+			auto,
+			auto
+		);
+	}
+	&_3 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-3
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap,
+			variables.$gap,
+			auto,
+			auto,
+			auto
+		);
+	}
+}
+.card-4 {
+	&_1 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-1
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap * 3,
+			auto,
+			auto,
+			variables.$gap * 3,
+			auto
+		);
+	}
+	&_2 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-2
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap * 2,
+			auto,
+			auto,
+			variables.$gap * 2,
+			auto
+		);
+	}
+	&_3 {
+		@include mixin.square(
+			variables.$width,
+			variables.$height,
+			variables.$color-3
+		);
+		@include mixin.position(
+			absolute,
+			variables.$gap,
+			auto,
+			auto,
+			variables.$gap,
+			auto
+		);
+	}
+}
